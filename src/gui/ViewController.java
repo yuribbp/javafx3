@@ -12,6 +12,6 @@ public class ViewController {
 
 	@FXML
 	public void onBtTestAction() {
-		Alerts.showAlert("Alert title", "Alert header", "Hello!", AlertType.ERROR);
+		Alerts.showAlert("Alert title", null, "Hello!", AlertType.ERROR);
 	}
 }
